@@ -3,7 +3,7 @@ leave request management is a tool to manage employees leave
 
 # Stacks used
 - LARAVEL AS BACKEND
-- REACT JS FOR FRONTEND
+- REACT JS & TAILWIND CSS FOR FRONTEND
 
 # How to install
 - Clone the repository
