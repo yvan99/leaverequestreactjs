@@ -1,0 +1,71 @@
+
+import React, { Component } from 'react';
+
+export default class componentName extends Component {
+    state = {
+        isFetching:false
+    }
+    callingBackend = () =>{
+                //axios.post
+
+        this.setState({isFetching:true})
+    }
+  render() {
+
+    return (
+     <button disabled = {this.state.isFetching ? "":disabled} className ={this.state.isFetching? "bg-red-700" :"bg-red-200"} onClick={this.callingBackend}>
+         
+         {this.state.isFetching? "Login" : "Logging in...."
+yof-wvaz-tmb
+
+
+
+
+
+Lambert Nsengimana16:08
+ndi kuri telephone
+ba uzana screen yawe
+Lambert Nsengimana16:11
+https://wvr-efile-v2-staging.dokuma.rw/dashboard
+Lambert Nsengimana16:20
+import React, { Component } from 'react';
+
+export default class componentName extends Component {
+    state = {
+        isFetching:false
+    }
+    callingBackend = () =>{
+                //axios.post
+
+        this.setState({isFetching:true})
+    }
+  render() {
+
+    return (
+     <button disabled = {this.state.isFetching ? "":disabled} className ={this.state.isFetching? "bg-red-700" :"bg-red-200"} onClick={this.callingBackend}>
+         
+         {this.state.isFetching? "Login" : "Logging in...."
+Lambert Nsengimana16:27
+import React, { Component } from 'react';
+
+export default class componentName extends Component {
+  state = {
+    message:""
+  }
+  loginFunction = async() =>{
+        let response = await ...........;
+        let data = response.data;
+        let msg = response.data.error
+        this.setState({message:msg})
+  }  
+  render() {
+    return (
+      <div> textInComponent </div>
+      {
+        this.state.message.length > 0 &&
+        <div></div>
+      }
+    );
+  }
+}
+yof-wvaz-tmb
